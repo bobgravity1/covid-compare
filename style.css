@@ -1,0 +1,108 @@
+.winner{
+color:green
+}
+.hidden{
+  visibility:hidden;
+}
+.deathsButton{
+  visibility:hidden;
+}
+body{
+  background: #343d46;
+  color:white
+}
+.dropdown-item{
+  color:pink
+}
+
+.loser{
+  color:red
+}
+
+.zip{
+  visibility: hidden;
+  border:3px solid green;
+  background:aqua;
+  width:50%;
+  height:0%;
+  bottom:0;
+  z-index:-1;
+  position:absolute;
+  transform:scaleY(0);
+  transform-origin:top;
+}
+
+.bigheadText{
+  font-size:1.5rem;
+  color:pink
+}
+.smallheadText{
+color:white
+}
+.ordered{
+  position:absolute;
+  top:0px;
+  z-index:-1;
+}
+.grid{
+  display:grid;
+  grid-template-columns:25% 25%;
+  justify-content:center;
+  justify-items:center;
+
+}
+.headContainer{
+  justify-content: center;
+  display:flex
+}
+.guap1, .guap2{
+  text-align: center
+
+}
+.guap1{
+  position:fixed;
+  left:3em
+}
+.guap2{
+  position:fixed;
+  right:3em;
+}
+.input{
+  font-size:18rem;
+  visibility: hidden;
+}
+
+.hidden{
+  visibility:hidden;
+}
+
+h1{
+  color:white;
+  text-align: center
+}
+.buttonOne{
+  justify-content: center;
+}
+.buttonTwo{
+  justify-content: center;
+}
+.hovered{
+  color:pink;
+  background-color:#785;
+}
+li{
+list-style-type:none
+}
+.buttonThree{
+  justify-content: center;
+}
+
+
+.container1 input#search{
+
+  background: #2b303b;
+  border: none;
+  font-size: 18pt;
+  color: #262626;
+
+}
